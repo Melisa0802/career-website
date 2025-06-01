@@ -1,0 +1,81 @@
+ body {
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      background-color: #ffedd5; /* soft peach */
+      color: #2e4638; /* army green */
+      padding-top: 56px; /* space for fixed navbar */
+    }
+
+    header {
+      background-color: #2e4638;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      color: #ffe5b4;
+      margin: 0;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #2e4638;
+      padding: 12px 0;
+      text-align: center;
+      z-index: 1000; /* keep navbar on top */
+    }
+
+    nav a {
+      color: #ffedd5;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .container h2 {
+      font-size: 26px;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 30px;
+      color: #2e4638;
+    }
+
+    .container p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #2e4638;
+      text-align: justify;
+      margin-bottom: 40px;
+    }
+
+    img {
+      width: 350px;
+      max-width: 100%;
+      border-radius: 12px;
+      border: 3px solid #2e4638;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #2e4638;
+      margin-top: 40px;
+      border-top: 1px solid #2e4638;
+    }
